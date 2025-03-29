@@ -11,7 +11,7 @@ setup(
     long_description_content_type="text/markdown",
     url="https://github.com/tu-usuario/mi-paquete",
     install_requires=[
-        "git+https://github.com/incubadoradepollos/HexArchCore.git"
+        "hexarch_core @ git+https://github.com/incubadoradepollos/HexArchCore.git"
         # Lista de dependencias, ej:
         # "requests>=2.25.1",
     ],

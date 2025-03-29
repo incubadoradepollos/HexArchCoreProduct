@@ -2,6 +2,7 @@ from hexarch_product_core.interfaces import IProductAdapter
 from hexarch_product_core.models import CoreProduct
 from hexarch_core.adapters.openia import OpenIAAdapter
 
+
 class ProductsService():
 
     def __init__(self, product_adapter : IProductAdapter, open_ia_adapter: OpenIAAdapter ):
