@@ -1,6 +1,8 @@
+# MODELOS DE PRODUCTO
 from pydantic import BaseModel
 from typing import List, Optional
 
+# CORE PRODUCT MODEL
 class CoreProduct(BaseModel):
     
     id: Optional[int] = None
