@@ -2,9 +2,9 @@ from setuptools import setup, find_packages
 
 setup(
     name="hexarch_product_core",
-    version="0.1.1",
+    version="0.0.1",
     packages=find_packages(),
-    author="Jose Manuel Herrera",
+    author="Jose Manuel Herrera Saenz",
     author_email="incubadoradepollos@gmail.com",
     description="Productos abstractos para utilizar con adaptadores de ecommerce",
     long_description=open("README.md").read(),
